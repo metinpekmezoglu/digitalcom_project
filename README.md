@@ -1,7 +1,7 @@
 #  Dijital Haberleşme Sistemi Simülasyonu (8-PSK & AWGN)
 
 ##  Proje Hakkında
-Bu proje, Dokuz Eylül Üniversitesi Mühendislik Fakültesi Elektrik-Elektronik Mühendisliği Bölümü EED4101 Dijital Haberleşme (Digital Communication) dersi 2015 Güz dönemi 6 numaralı projesi kapsamında geliştirilmiştir . Çalışmanın temel amacı, uçtan uca bir dijital haberleşme sisteminin MATLAB üzerinde simüle edilmesidir . 
+Bu proje, Dokuz Eylül Üniversitesi Mühendislik Fakültesi Elektrik-Elektronik Mühendisliği Bölümü EED4101 Dijital Haberleşme dersi kapsamında geliştirilmiştir . Çalışmanın temel amacı, uçtan uca bir dijital haberleşme sisteminin MATLAB üzerinde simüle edilmesidir . 
 
 Proje; kaynak sinyalinin alınması, delta modülasyonu, kanal kodlaması, temel bant dijital modülasyon ve kanal gürültüsü altındaki performansın analiz edilmesini içermektedir .
 
