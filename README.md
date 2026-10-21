@@ -1,20 +1,20 @@
 #  Dijital Haberleşme Sistemi Simülasyonu (8-PSK & AWGN)
 
 ##  Proje Hakkında
-Bu proje, Dokuz Eylül Üniversitesi Mühendislik Fakültesi Elektrik-Elektronik Mühendisliği Bölümü EED4101 Dijital Haberleşme dersi kapsamında geliştirilmiştir . Çalışmanın temel amacı, uçtan uca bir dijital haberleşme sisteminin MATLAB üzerinde simüle edilmesidir . 
+Bu proje, Dokuz Eylül Üniversitesi Mühendislik Fakültesi Elektrik-Elektronik Mühendisliği Bölümü EED4101 Dijital Haberleşme dersi kapsamında geliştirilmiştir . Çalışmanın temel amacı, uçtan uca bir dijital haberleşme sisteminin MATLAB üzerinde simüle edilmesidir. 
 
-Proje; kaynak sinyalinin alınması, delta modülasyonu, kanal kodlaması, temel bant dijital modülasyon ve kanal gürültüsü altındaki performansın analiz edilmesini içermektedir .
+Proje; kaynak sinyalinin alınması, delta modülasyonu, kanal kodlaması, temel bant dijital modülasyon ve kanal gürültüsü altındaki performansın analiz edilmesini içermektedir.
 
 ##  Temel Özellikler ve Sistem Bileşenleri
-* **Kaynak Sinyali:** MATLAB kullanılarak 8000 Hz örnekleme frekansında 10 saniyelik ses dalgası kaydı .
-* **Delta Modülasyonu (DM/ADM):** Sinyal-kuantalama gürültü oranını (SQNR) maksimize eden Delta Modülatörü ve değişken adım boyutuna sahip Adaptif Delta Modülasyonu .
-* **Kanal Kodlama:** 1/3 oranlı sistematik olmayan  konvolüsyonel kodlama ve alıcı tarafında orijinal mesajı elde etmek için Viterbi kod çözme algoritması .
-* **Modülasyon ve Demodülasyon:** Gray mapping tekniği kullanan 8-ary Phase Shift Keying (8-PSK) modülasyonu. Demodülasyon için maksimum olabilirlik  karar algoritması kullanılmıştır .
-* **Kanal:** Toplanabilir Beyaz Gauss Gürültüsü .
-* **Arayüz:** Tüm sistem bileşenlerinin ve giriş parametrelerinin kontrol edilebildiği Grafiksel Kullanıcı Arayüzü (GUI) .
+* **Kaynak Sinyali:** MATLAB kullanılarak 8000 Hz örnekleme frekansında 10 saniyelik ses dalgası kaydı.
+* **Delta Modülasyonu (DM/ADM):** Sinyal-kuantalama gürültü oranını (SQNR) maksimize eden Delta Modülatörü ve değişken adım boyutuna sahip Adaptif Delta Modülasyonu.
+* **Kanal Kodlama:** 1/3 oranlı sistematik olmayan  konvolüsyonel kodlama ve alıcı tarafında orijinal mesajı elde etmek için Viterbi kod çözme algoritması.
+* **Modülasyon ve Demodülasyon:** Gray mapping tekniği kullanan 8-ary Phase Shift Keying (8-PSK) modülasyonu. Demodülasyon için maksimum olabilirlik  karar algoritması kullanılmıştır.
+* **Kanal:** Toplanabilir Beyaz Gauss Gürültüsü.
+* **Arayüz:** Tüm sistem bileşenlerinin ve giriş parametrelerinin kontrol edilebildiği Grafiksel Kullanıcı Arayüzü.
 
 ##  Sistem Blok Diyagramı İşleyişi
-Sistem sırasıyla şu bloklardan oluşmaktadır[cite: 2]:
+Sistem sırasıyla şu bloklardan oluşmaktadır:
 1. Ses Kaynağı 
 2. Delta Modülasyon Kodlayıcı
 3. Kanal Kodlayıcı
@@ -22,7 +22,7 @@ Sistem sırasıyla şu bloklardan oluşmaktadır[cite: 2]:
 5. Kanal (AWGN)
 6. Demodülatör
 7. Kanal Kod Çözücü (Viterbi)
-8. Delta Modülasyon Kod Çözücü[
+8. Delta Modülasyon Kod Çözücü
 9. Veri Çıkışı 
 
 ##  Performans Analizi
